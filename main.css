@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Jost', sans-serif;
+	color: #4d5053;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	color: #292f36;
+}
+
+a {
+	text-decoration: none;
+	color: #292f36;
+}
+
+.container {
+	max-width: 1240px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0 50px;
+}
+
+.logo__link {
+	font-family: 'DM Serif Display', serif;
+	font-size: 40px;
+	line-height: 125%;
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {
+	margin-right: 10px;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	gap: 45px;
+}
+
+.nav__link {
+	font-size: 20px;
+	line-height: 125%;
+}
+
+.header__menu {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.header__links {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
